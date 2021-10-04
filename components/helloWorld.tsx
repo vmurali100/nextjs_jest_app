@@ -1,9 +1,5 @@
-import {FC} from 'react'
+import React, { FC } from 'react';
 
-const HelloWorld = () => {
-    return (
-        <p>Hello World</p>
-    )
-}
+const HelloWorld:FC<any> = () => <p>Hello World</p>;
 
-export default HelloWorld
+export default HelloWorld;
